@@ -3,8 +3,23 @@
 ![Power BI](https://img.shields.io/badge/PowerBI-Dashboard-yellow)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-An interactive Power BI dashboard analyzing Blinkit's sales and operational KPIs.  
-This project provides insights into sales performance, revenue trends, and customer behavior to help in data-driven decision-making.
+An interactive **Power BI dashboard** analyzing Blinkit's sales performance, outlet distribution, and customer insights.  
+This dashboard provides **data-driven KPIs** to understand revenue trends, top-performing items, and outlet characteristics.
+
+---
+
+## 📸 Dashboard Preview
+
+![Blinkit Dashboard](screenshots/dashboard.png)
+
+---
+
+## ✨ Key Features
+✅ **Total Sales Analysis** – $1.20M revenue overview  
+✅ **Average Sales & Rating Metrics** – Quick business health insights  
+✅ **Outlet Performance** – Breakdown by size, location, and type  
+✅ **Item-Type Insights** – Sales contribution by product category  
+✅ **Interactive Filters** – Location, Outlet, Item Type  
 
 ---
 
@@ -17,54 +32,27 @@ Blinkit-Dashboard/
 ├─ .gitattributes
 ├─ data/ # Sample or anonymized data
 │ └─ .gitkeep
-└─ screenshots/ # Dashboard screenshots
-└─ .gitkeep
-
----
-
-## ✨ Features
-- **Monthly Revenue Trends** – Track revenue growth over time.
-- **Top-Performing Products** – Identify best-selling items.
-- **Regional Sales Insights** – Compare sales across locations.
-- **Customer Demographics** – Understand user segments.
-- **Interactive Filters** – Slice and dice the data by category, region, and more.
-
----
-
-## 🧰 Tools & Technologies
-- **Power BI Desktop** (May 2023 or later)
-- **DAX** (for calculations and KPIs)
-- **Power Query** (for data transformation)
-- **Excel / CSV** (for source data)
-
----
-
-## 🚀 How to Use
-1. **Clone or Download** this repository.
-2. Open the `Blinkit_Dashboard.pbix` file in **Power BI Desktop**.
-3. If your report uses local data, update paths in  
-   **Home → Transform Data → Data Source Settings**.
-4. Refresh the report and explore insights interactively!
-
----
-
-## 📸 Screenshots
-(Replace these placeholders after adding actual screenshots in `/screenshots` folder)
+└─ screenshots/
+└─ dashboard.png # Dashboard preview
 
 
 ---
 
 ## 🗃️ Dataset
-- **Source:** Proprietary dataset (not included).
-- If sharing data is permitted, include a sample file in the `/data` folder with anonymized data.
+- **Source:** Kaggle – [Blinkit Sales Data](https://www.kaggle.com)  
+- Original dataset contains outlet information, item details, and sales metrics.
 
 ---
 
-## 🧮 DAX / Power Query
-You can document key measures, KPIs, and Power Query transformations in a separate file or within this README.
+## 🧰 Tools & Technologies
+- **Power BI Desktop** (May 2023 or later)
+- **DAX** for KPIs and calculated measures
+- **Power Query** for data transformation
+- **Excel/CSV** as data sources
 
 ---
 
-👨‍💻 Author
-
-Shivam Saurabh
+## 🚀 How to Use
+1. Clone or download this repository:
+   ```bash
+   git clone https://github.com/yourusername/Blinkit-Dashboard.git
