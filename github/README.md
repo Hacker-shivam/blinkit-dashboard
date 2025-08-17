@@ -10,7 +10,7 @@ This dashboard provides **data-driven KPIs** to understand revenue trends, top-p
 
 ## 📸 Dashboard Preview
 
-![Blinkit Dashboard](screenshots/dashboard.png)
+![Blinkit Dashboard](screenshots/dashbord.png),![Blinkit Dashboard](screenshots/filtered.png)
 
 ---
 
